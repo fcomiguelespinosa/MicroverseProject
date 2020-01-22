@@ -7,14 +7,16 @@
     position: fixed;
     display: flex;
     justify-content: space-between;
-    background-color: white;
+    background-color: rgb(141, 55, 55);
 }
 #nav-bar{
     display: flex;
+    
 }
 .nav-link{
-    padding: 0.5em 1em;
+    width: 25vw;
     display: block;
+    text-align: right;
 }
 
 body{
