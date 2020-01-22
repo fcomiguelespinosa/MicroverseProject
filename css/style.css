@@ -3,10 +3,11 @@
     width: 300px;
     height: auto;
 }
-#header{    
+#header{
     position: fixed;
     display: flex;
     justify-content: space-between;
+    background-color: white;
 }
 #nav-bar{
     display: flex;
@@ -16,4 +17,12 @@
     display: block;
 }
 
+body{
+  background-color: white;
+}
 
+@media only screen and (max-width: 600px){
+  body{
+    background-color: lightblue;
+  }
+}
