@@ -1,0 +1,19 @@
+#header-img{
+    text-align: left;
+    width: 300px;
+    height: auto;
+}
+#header{    
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+#nav-bar{
+    display: flex;
+}
+.nav-link{
+    padding: 0.5em 1em;
+    display: block;
+}
+
+
